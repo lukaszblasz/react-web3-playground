@@ -43,7 +43,8 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
-    "test-e2e": "testcafe chrome e2e/"
+    "test-e2e-chrome": "testcafe chrome e2e/",
+    "test-e2e-safari": "testcafe safari e2e/"
   },
   "jest": {
     "collectCoverageFrom": [
